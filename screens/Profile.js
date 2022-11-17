@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { RFValue } from "react-native-responsive-fontsize";
-import AppLoading from "expo-app-loading";
+import * as SplashScreen from 'expo-splash-screen';
 import * as Font from "expo-font";
 
 let customFonts = {
