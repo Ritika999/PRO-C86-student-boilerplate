@@ -4,6 +4,8 @@ import { RFValue } from "react-native-responsive-fontsize";
 import * as SplashScreen from 'expo-splash-screen';
 import * as Font from "expo-font";
 
+SplashScreen.preventAutoHideAsync();
+
 let customFonts = {
   "Bubblegum-Sans": require("../assets/fonts/BubblegumSans-Regular.ttf")
 };
