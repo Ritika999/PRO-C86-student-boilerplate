@@ -28,9 +28,8 @@ export default class Profile extends Component {
   }
 
   render() {
-    if (!this.state.fontsLoaded) {
-      return <AppLoading />
-    } else {
+    if (this.state.fontsLoaded) {
+      SplashScreen.hideAsync();
       return (
         <View style={styles.container}>
           <Text>Profile</Text>
